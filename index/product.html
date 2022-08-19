@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap npm starter</title>
+    <meta name="description" content="">
+    <meta name="author" content="Flashdog8">
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head_part"></div>
+    
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Product</h1>
+      <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+    </div>
+    
+    <div class="container">
+      <div class="card-deck mb-3 text-center">
+       
+      </div>
+    
+      <div class="foot_part"></div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+    <script>
+      $(function(){
+        $(".head_part").load("components/head.html");
+        $(".foot_part").load("components/foot.html");
+      });
+    </script>
+  </body>
+</html>

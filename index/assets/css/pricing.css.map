@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "pricing.css",
+	"sources": [
+		"../../scss/pricing.scss"
+	],
+	"sourcesContent": [
+		"html {\n  font-size: 14px;\n}\n@media (min-width: 768px) {\n  html {\n    font-size: 16px;\n  }\n}\n\n.container {\n  max-width: 960px;\n}\n\n.pricing-header {\n  max-width: 700px;\n}\n\n.card-deck .card {\n  min-width: 220px;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,AACD,MAAM,EAAE,SAAS,EAAE,KAAK,EACtB,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,CAGH,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,KAAK,CACjB,AAED,AAAA,eAAe,AAAC,CACd,SAAS,CAAE,KAAK,CACjB,AAED,AAAA,UAAU,CAAC,KAAK,AAAC,CACf,SAAS,CAAE,KAAK,CACjB"
+}

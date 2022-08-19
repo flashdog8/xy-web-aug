@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap npm starter</title>
+    <meta name="description" content="">
+    <meta name="author" content="Flashdog8">
+    <link rel="icon" href="./favicon.ico" sizes="32x32">
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head_part"></div>
+    
+    <form class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <div class="mb-3">
+        <label for="inputSearch" class="form-label">搜索</label>
+        <input type="text" id="inputSearch" class="form-control" aria-describedby="searchHelpBlock">
+        <small id="searchHelpBlock" class="form-text text-muted">
+          balabala
+        </small>
+      </div>
+    </form>
+    
+    <div class="container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">耗材</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 users included</li>
+              <li>2 GB of storage</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">试剂</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">仪器</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="foot_part"></div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+    <script>
+      $(function(){
+        $(".head_part").load("components/head.html");
+        $(".foot_part").load("components/foot.html");
+      });
+    </script>
+  </body>
+</html>
